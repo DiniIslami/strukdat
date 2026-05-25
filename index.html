@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materi Struktur Data</title>
+  <style>*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+  min-height:100vh;
+  padding:40px;
+}
+
+.container{
+  max-width:1200px;
+  margin:auto;
+}
+
+header{
+  text-align:center;
+  margin-bottom:50px;
+}
+
+header h1{
+  font-size:42px;
+  margin-bottom:10px;
+  color:#38bdf8;
+}
+
+header p{
+  color:#cbd5e1;
+  font-size:18px;
+}
+
+.materi-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+  gap:25px;
+}
+
+.card{
+  background:#1e293b;
+  padding:25px;
+  border-radius:18px;
+  transition:0.3s;
+  border:1px solid rgba(255,255,255,0.1);
+}
+
+.card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 10px 20px rgba(0,0,0,0.4);
+}
+
+.card h2{
+  margin-bottom:20px;
+  color:#38bdf8;
+}
+
+.card ul{
+  list-style:none;
+}
+
+.card ul li{
+  margin-bottom:12px;
+}
+
+.card ul li a{
+  text-decoration:none;
+  color:#e2e8f0;
+  transition:0.3s;
+}
+
+.card ul li a:hover{
+  color:#38bdf8;
+  padding-left:5px;
+}</style>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>Materi Perkuliahan Struktur Data</h1>
+      <p>Kumpulan materi dan tugas praktikum</p>
+    </header>
+
+    <div class="materi-container">
+
+      <!-- STACK -->
+      <div class="card">
+        <h2>Stack</h2>
+
+        <ul>
+          <li><a href="#">Stack</a></li>
+          <li><a href="#">Infix, Prefix, Postfix</a></li>
+        </ul>
+      </div>
+
+      <!-- QUEUE -->
+      <div class="card">
+        <h2>Queue</h2>
+
+        <ul>
+          <li><a href="#">Queue</a></li>
+          <li><a href="#">Dequeue</a></li>
+        </ul>
+      </div>
+
+      <!-- SORTING -->
+      <div class="card">
+        <h2>Sorting</h2>
+
+        <ul>
+          <li><a href="#">Sorting</a></li>
+          <li><a href="#">Tugas Sorting</a></li>
+        </ul>
+      </div>
+
+      <!-- REKURSIF -->
+      <div class="card">
+        <h2>Rekursif</h2>
+
+        <ul>
+          <li><a href="#">Rekursif</a></li>
+        </ul>
+      </div>
+
+      <!-- HASHING -->
+      <div class="card">
+        <h2>Hashing</h2>
+
+        <ul>
+          <li><a href="#">Hashing Chaining</a></li>
+          <li><a href="#">Linear Probing</a></li>
+        </ul>
+      </div>
+
+      <!-- LINKED LIST -->
+      <div class="card">
+        <h2> Linked List</h2>
+
+        <ul>
+          <li><a href="#">Single Linked List</a></li>
+          <li><a href="#">Double Linked List</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
